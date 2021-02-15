@@ -1,0 +1,436 @@
+/* =========== Header ============ */
+
+.navbar {
+    background-color: whitesmoke;
+}
+
+#top-navbar {
+    height: 80px;
+} 
+
+.navbar-nav {
+    margin-left: auto; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#nav0, #nav1, #nav2, #nav3 {
+    padding-right: 25px;
+}
+
+#nav0 {
+    padding-top: 13px;
+    align-content: center;
+}
+
+.nav-item span {
+    font-family: Proxima Nova Semibold;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#navimg {
+    padding-right: 10px;
+}
+
+#nav3 {
+    padding-top: 13px;
+}
+
+/* =========== Index ============ */
+
+.flow {
+    padding-top: 25px;
+}
+
+.flow a {
+    text-decoration: none;
+    color: black;
+}
+
+.flow a:hover {
+    background-color: white;
+    color: cornflowerblue;    
+}
+
+.flow a.active {
+  color: cornflowerblue;
+}
+
+.flow p {
+    font-family: Proxima Nova Semibold;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/* =========== First Row ============ */
+
+#first-row {
+    padding-top: 25px;
+}
+
+/* =========== First Row - First Column - All Categories ============ */
+
+.all-categories {
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Proxima Nova Semibold;
+}
+
+.all-categories h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.all-categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.all-categories a:hover {
+    background-color: whitesmoke;
+    color: cornflowerblue;    
+}
+
+.all-categories a.active {
+  color: cornflowerblue;
+}
+
+.category-item {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* =========== First Row - Second Column - Banner ============ */
+
+.banner {
+    background-color: cornflowerblue;
+    padding-left: 50px;
+    padding-bottom: 85px;
+}
+
+.banner h2 {
+    padding-top: 60px;
+}
+
+.banner h2, .banner p {
+    color: white;
+    font-weight: 500;
+}
+
+.banner img {
+    position: relative;
+    padding-right: 60px;
+}
+
+#shopnow {
+    color: white;
+    text-decoration: underline;
+}
+
+#shopnow:hover {
+    background-color: cornflowerblue;
+    color: black;    
+}
+
+.banner img {
+   float: right;
+}
+
+/* =========== Second Row ============ */
+
+#second-row {
+    padding-top: 24px;
+}
+
+/* =========== Second Row -  First Column - Prices ============ */
+
+.prices {
+    background-color: whitesmoke;
+    font-family: Proxima Nova Semibold;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.max, .min {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.max {
+    position: relative;
+    left: 15px;
+}
+
+#max-id {
+    position: relative;
+    left: 153px;
+}
+
+.prices span {
+    margin-left: 20px;
+}
+
+/* =========== Second Row - First Column - Color ============ */
+
+.color {
+    font-family: Proxima Nova Semibold;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.button {
+    border: none;
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6 {
+    border-radius: 50%;
+}
+
+.color-buttons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button1 {
+    background-color: blue;
+}
+
+.button2 {
+    background-color: red;
+}
+
+.button3 {
+    background-color: black;
+}
+
+.button4 {
+    background-color: yellow;
+}
+
+.button5 {
+    background-color: hotpink;
+}
+
+.button6 {
+    background-color: lightpink;
+}
+
+/* =========== Second Row - First Column - Brand ============ */
+
+.brand {
+    background-color: whitesmoke;
+    font-family: Proxima Nova Semibold;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.brand a{
+    text-decoration: none;
+    color: black;
+}
+
+.brand a:hover {
+    background-color: whitesmoke;
+    color: cornflowerblue;    
+}
+
+.brand a.active {
+  color: cornflowerblue;
+}
+
+.brand-item {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brand-item span {
+    float: right;
+    margin-right: 20px;
+}
+
+/* =========== Second Row - First Column - More ============ */
+
+.more {
+    background-color: whitesmoke;
+    font-family: Proxima Nova Semibold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.more h5 {
+    text-align: center;
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+}
+
+.more a:hover {
+    background-color: whitesmoke;
+    color: cornflowerblue;
+}
+
+/* =========== Second Row - Second Column - Menu Bar ============ */
+
+.menu-bar {
+    background-color: whitesmoke;
+    font-family: Proxima Nova Semibold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-bar p {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.menu-dropdown {
+    color: #000;
+    background: transparent;
+}
+
+/* =========== Second Row - Second Column - Product ============ */
+
+.product-row a, .product-row p, .product-row img {
+    text-align: center;
+}
+
+.product-row img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.product-row {
+    background-color: whitesmoke;
+    font-family: Proxima Nova Semibold;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.product-row p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: auto;
+}
+
+.product-row span{
+    color: red;
+}
+
+.rating {
+    text-align: center;
+    margin-top: 0;
+}
+
+.rating i{
+    color: gold;
+}
+
+/* =========== Second Row - Second Column - Page No ============ */
+
+.topnav {
+    position: relative;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.center{
+    text-align: center;
+}
+
+.topnav {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.topnav a {
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: whitesmoke;
+}
+
+/* =========== Separator ============ */
+
+.separator {
+    margin-top: 250px;
+}
+
+/* =========== Footer ============ */
+
+#item1 {
+    padding-top: 10px;
+}
+
+#item2, #item3 {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+#item2 img {
+    padding-right: 25px;
+}
+
+.item-heading {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.item-para {
+    font-weight: 350;
+    font-size: 12px;
+}
+
+#fitem1 {
+    padding-top: 10px;
+    text-align: left; 
+}
+
+#fitem2 {
+    padding-top: 10px;
+    text-align: right;
+}
+
+#footer-line {
+    font-weight: 50;
+    font-size: 14px;
+}
+
+#fitem2 img {
+    padding-right: 15px;
+}
